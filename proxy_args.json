@@ -1,0 +1,4 @@
+{
+  "Google/Youtube":" --host-rules=\"MAP *google* g.cn,MAP *youtube.com g.cn,MAP *.ggpht.com g.cn,MAP i.ytimg.com g.cn,\" --host-resolver-rules=\"MAP g.cn 49.12.230.233,\" --test-type --ignore-certificate-errors",
+  "Github/Discord/Flickr":"--host-rules=\"MAP github.com gh,MAP discord.com dis, MAP flickr.com flc\" --host-resolver-rules=\"MAP gh 20.200.245.247,MAP dis 162.159.128.233,MAP flc 13.224.165.123\" --test-type --ignore-certificate-errors"
+}
